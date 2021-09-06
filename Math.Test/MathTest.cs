@@ -10,7 +10,7 @@ namespace Math.Test {
         [InlineData (5, 6, 11)]
         public void AddTest (int firstValue, int secondValue, int expected) {
             SimpleMath math = new SimpleMath ();
-            int actual = math.add (firstValue, secondValue);
+            int actual = math.add (12, secondValue);
             Assert.Equal (expected, actual);
 
         }
